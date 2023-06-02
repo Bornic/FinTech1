@@ -9,10 +9,7 @@ using System.Threading.Tasks;
 namespace FinTech1.Data
 {
     
-    /*
-     * Получение всех необходимых значений в один класс
-     * 
-     */
+    
     class DataControl
     {
         private SqlConnection SqlConnection = null;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinTech1.Data
 {
-    //класс представления необходимых элементов
+   
     class Products
     {
         string name;

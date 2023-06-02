@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace FinTech1.Data
 {
 
-    /*
-     * Класс для работы с таблицей издел
-     */
+    
     class Izdel
     {
         Int64 id;

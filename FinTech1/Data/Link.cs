@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinTech1.Data
 {
-    /*
-     * класс для работы с таблицей линкс
-     */
+    
     class Link
     {
         Int64 izdelup;

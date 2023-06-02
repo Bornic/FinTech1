@@ -119,12 +119,16 @@ namespace FinTech1
 
             }
             
+           
             //ввывод в офис
             dataGridView1.DataSource = products;
             for (int i = 1; i < dataGridView1.RowCount + 1; i++) 
             {
+                
                 for (int j = 1; j < dataGridView1.ColumnCount + 1; j++)
                 {
+                    var value = products[j];
+                   
                     wsh.Cells[i+1,j] = dataGridView1.Rows[i - 1].Cells[j - 1].Value;
                 }
             }
